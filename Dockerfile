@@ -14,7 +14,7 @@ RUN         \
             git clone https://github.com/gaozheyuan13/quantum-leap.git ;\
           
 
-WORKDIR     quantum-leap
+WORKDIR     /quantum-leap
 
 
 EXPOSE      3000
