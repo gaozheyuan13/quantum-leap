@@ -11,7 +11,7 @@ RUN         \
 RUN         \
             set -xe ;\
             npm install -g enduro@$ENDURO_VERSION ;\
-            git clone https://github.com/gaozheyuan13/quantum-leap.git ;\
+            git clone https://github.com/gaozheyuan13/quantum-leap.git ;
           
 
 WORKDIR     /quantum-leap
