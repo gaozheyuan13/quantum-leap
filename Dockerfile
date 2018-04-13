@@ -10,7 +10,9 @@ RUN         \
             
 RUN         \
             set -xe ;\
-            npm install -g enduro@$ENDURO_VERSION
+            npm install -g enduro@$ENDURO_VERSION ;\
+            git clone https://github.com/gaozheyuan13/quantum-leap.git ;\
+            cd quantum-leap
 
 EXPOSE      3000
 EXPOSE      5000
