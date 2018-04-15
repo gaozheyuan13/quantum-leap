@@ -16,8 +16,6 @@ RUN         \
 
 WORKDIR     /quantum-leap
 
-
-EXPOSE      3000
 EXPOSE      5000
 
 CMD         ["enduro","dev"]
